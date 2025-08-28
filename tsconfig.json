@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "esnext",
+    "skipLibCheck": true,
+    "allowJs": false,
+    "resolveJsonModule": true,
+    "types": ["vitest/globals", "react", "react-native"],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"]
+    }
+  }
+}
